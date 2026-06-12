@@ -65,6 +65,10 @@ return {
     'akinsho/bufferline.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
     opts = {},
+    keys = {
+      { '<leader>bb', '<cmd>BufferLinePick<cr>', desc = 'BufferLine Pick' },
+      { '<leader>bc', '<cmd>BufferLinePickClose<cr>', desc = 'BufferLine Pick Close' },
+    },
   },
   {
     'github/copilot.vim',
